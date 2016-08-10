@@ -113,12 +113,7 @@
 
     <SemanticVersionMajor>4</SemanticVersionMajor>
     <SemanticVersionMinor>1</SemanticVersionMinor>
-
-    <!-- 
-      SemanticVersionPatch version is used to distinguish internally built NuGet packages.
-      SemanticVersionPatch version = Minutes since semantic version was set, divided by 65535 (to distinguish same groups of PreReleaseVersion).
-    -->
-    <SemanticVersionPatch>$([MSBuild]::Divide($([System.Convert]::ToInt64($([System.DateTime]::Now.Subtract($([System.DateTime]::Parse($(SemanticVersionDate)))).TotalMinutes))), $([System.Convert]::ToInt64(65535))).ToString('F0'))</SemanticVersionPatch>
+    <SemanticVersionPatch>3000</SemanticVersionPatch>
 
     <!-- 
       Pre-release version is used to distinguish internally built NuGet packages.
