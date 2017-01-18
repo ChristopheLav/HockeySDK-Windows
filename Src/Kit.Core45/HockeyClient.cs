@@ -1191,7 +1191,7 @@
         /// </summary>
         public void Flush()
         {
-            this.Channel.Flush();
+            this.Channel?.Flush();
         }
 
         /// <summary>
