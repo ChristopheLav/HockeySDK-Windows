@@ -1211,7 +1211,7 @@
         /// </summary>
         public void FlushAndSendPersistentTelemetry()
         {
-            this.Channel.FlushAndSend();
+            this.Channel?.FlushAndSend();
         }
 
         private async Task<TelemetryContext> CreateInitializedContextAsync()
