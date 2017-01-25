@@ -4,7 +4,7 @@ Fork of the [HockeySDK-Windows](https://github.com/bitstadium/HockeySDK-Windows)
 
 Used this fork to publish some improvements, stability and fixes for Background Task support (and more).
 
-All devs are made in the [background-task-support](https://github.com/ChristopheLav/HockeySDK-Windows/tree/background-task-support) branch and based on the last __4.1.5__ official release + last changes from develop branch.
+All devs are made in the [background-task-support](https://github.com/ChristopheLav/HockeySDK-Windows/tree/background-task-support) branch and based on the last __4.1.6__ official release + last changes from develop branch.
 
 
 ---
