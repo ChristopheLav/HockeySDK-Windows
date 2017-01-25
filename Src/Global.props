@@ -113,7 +113,7 @@
 
     <SemanticVersionMajor>4</SemanticVersionMajor>
     <SemanticVersionMinor>1</SemanticVersionMinor>
-    <SemanticVersionPatch>6</SemanticVersionPatch>
+    <SemanticVersionPatch>6000</SemanticVersionPatch>
 
     <!-- 
       Pre-release version is used to distinguish internally built NuGet packages.
